@@ -1,5 +1,5 @@
 <div id="menu">
-<h1> Calculadora</h1>
+  <h1> Calculadora</h1>
 
   <ul id="inputsNmrs">
     <li><input type="number" [(ngModel)]="valorA"></li>
@@ -13,16 +13,10 @@
       <li><button id="btnMenos" (click)="subtracao()">-</button></li>
       <li><button id="btnMulti" (click)="multiplicacao()">*</button></li>
       <li><button id="btnDivi" (click)="divisao()">%</button></li>
-      
-    </ul>
-    <h3> <p>Resultado:</p>
-      {{resultado}}</h3>
+      </ul>
     </div>
+  <h3>
+    <div id="divRes"><p>Resultado: {{resultado}}</p></div> 
+  </h3>
 
-  
 </div>
-
-
-
-
-
