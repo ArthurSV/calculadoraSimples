@@ -8,22 +8,36 @@ h1{
     text-align: center;
     margin-bottom: 15px;
 }
+#divRes{
+    position: relative;
+    right: 20px;
+    top: 3vh;
+    /* border: 1px solid red; */
+    margin: 0vh;
+    padding: 0vh;
+    width: 19vh;
+}
 
 #menu h3{
     position: relative;
-    top: 50px;
+    bottom: 10px;
+    left: 120px;
 }
 #menu{
     border-radius: 5px;
     border: 1px solid rgb(130, 116, 106);
-    width: 330px;
-    height: 300px;
+    width: 320px;
+    height: 200px;
     position: relative;
-    left: 150px;
+    left: 500px;
+    top: 250px;
 }
 
 #listaBotoes{
     margin: 0px;
+    position: relative;
+    right: 7vh;
+    top: 8px;
     padding: 0px;
     padding-right: 45px;
     height: 25px;
@@ -32,6 +46,7 @@ h1{
     flex-direction: row;
     gap: 2px;
     font-size: 12px;
+    /* border: 2px solid red; */
 }
 #listaBotoes li {
     height: 21px;
